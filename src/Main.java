@@ -13,7 +13,7 @@ public class Main {
 
     private static void callDraw() {
         Random random = new Random();
-        Figure[] figures = new Figure[random.nextInt(5)];
+        Figure[] figures = new Figure[random.nextInt(5) + 1];
 
         for (int i = 0; i < figures.length; i++) {
             int randomNumber = random.nextInt(4);
